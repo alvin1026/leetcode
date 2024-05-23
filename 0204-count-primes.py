@@ -37,7 +37,7 @@ class Solution:
             i += 1
 
         counter = 0
-        for i in range(2, len(primes)):
+        for i in range(2, len(primes)):  # 0 and 1 are not prime numbers
             if primes[i]:
                 counter += 1
 
